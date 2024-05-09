@@ -1,0 +1,56 @@
+/* styles.css */
+
+nav {
+    background-color:beige;
+  color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px; /* adjust size as needed */
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .name h1 {
+    margin: 0;
+  }
+  
+  
+ 
+
+  
+
+ /* Button styles */
+.button {
+  display: inline-block;
+ padding: 10px;
+  margin: 8px;
+  margin-right: 0px;
+  margin-left:5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: beige !important;
+  color: black ;
+  text-decoration: none;
+  
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: black !important;
+ color: aliceblue;
+}

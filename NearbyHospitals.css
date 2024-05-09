@@ -1,0 +1,63 @@
+/* NearbyHospitals.css */
+.heading{
+  text-align: center;
+	color: white;
+	font-size: 10vh;
+  transition: margin-left 0.3s ease; /* Add transition for margin */
+}
+
+
+
+
+.input-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  transition: margin-right 0.3s ease; /* Add transition for margin */
+}
+
+.input-container input {
+  width: 200px; /* Adjust width as needed */
+  
+}
+
+
+.hospital-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hospital-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  height: 70vh;
+  width:50vh;
+}
+
+.hospital-image {
+  height:50vh;
+  width:48vh;
+  border-radius: 5px;
+}
+
+.hospital-details {
+  margin-top: 10px;
+}
+
+.book-appointment {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.book-appointment:hover {
+  background-color: #0056b3;
+}

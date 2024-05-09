@@ -1,0 +1,9 @@
+{
+    "hospitals": [
+      { "id": 1, "name": "Apollo Hospitals", "location": "https://vshospitals.b-cdn.net/wp-content/uploads/2022/06/apollo_hospitals_mumbai.webp" },
+      { "id": 2, "name": "BLK SS Hospital", "location": "https://vshospitals.b-cdn.net/wp-content/uploads/2022/02/slider-mobile.webp" },
+      { "id": 3, "name": "Medanta Hospital", "location": "https://vshospitals.b-cdn.net/wp-content/uploads/2022/02/medanta-14-e1530281055543.webp" },
+      { "id": 4, "name": "Fortis Hospitals Group", "location": "https://vshospitals.b-cdn.net/wp-content/uploads/2022/02/download-1-1.webp" },
+      { "id": 5, "name": "Artemis Hospital", "location": "https://vshospitals.b-cdn.net/wp-content/uploads/2022/02/artemis-hospital.webp" }
+    ]
+  }

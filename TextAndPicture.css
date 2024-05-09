@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 5vh;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 60px;
+  width:200vh;
+}
+
+.text-container {
+  flex: 1;
+ 
+}
+
+.text-container h2 {
+  font-size: 60px;
+}
+.text-container p{
+  font-size: 30px;
+}
+.image-container {
+  width: 800px;
+  height: 600px; /* Adjust the height as needed */
+  background-image: url('https://assets.setmore.com/website/v2/images/industry-pages/medical/book-doctors-appointment-online-2x.webp');
+  background-size: contain; /* Adjusted to contain */
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent image from repeating */
+ 
+}
+/* TextAndPicture.css */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-container {
+  flex: 1;
+  animation: slideLeft 1s ease forwards;
+}
+
+.image-container {
+  flex: 1;
+  animation: slideRight 1s ease forwards;
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

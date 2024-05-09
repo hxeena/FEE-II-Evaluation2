@@ -1,0 +1,117 @@
+.Cont {
+    display: flex;
+    background-color: #000000;
+   
+   
+  }
+ 
+  .full{
+   background-image: url("https://i.pinimg.com/474x/71/2f/8c/712f8cae5bbe5faf040348da62d4197b.jpg");
+   background-repeat: no-repeat;
+  background-size:cover;
+  background-position: 10px 0px 10px ;
+  width: 100%;
+  height: 100%;
+  }
+  .contain {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-image: url("https://media.istockphoto.com/id/1079554046/photo/medical-background.webp?b=1&s=170667a&w=0&k=20&c=p5W5XT-qUZZr3H6B6rohtQiB21cbo-HxfU8siLbxlWg=" );
+    background-size: cover;
+   
+    margin-top: 60px;
+    margin-left: 70vh;
+
+  }
+  .calc img {
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 400px;
+    height: 400px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .text {
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .underline {
+    width: 61px;
+    height: 6px;
+    background-color: black;
+    border-radius: 9px;
+  }
+  
+  .inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+  }
+  .input img {
+    margin: 0px 30px;
+  }
+  
+  .input input {
+    height: 50px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 19px;
+  }
+  .forgot {
+    padding-left: 62px;
+    margin-top: 26px;
+    color: black;
+    font-size: 18px;
+  }
+  .forgot span {
+    color: white;
+    cursor: pointer;
+  }
+  .submit-contain {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 59px;
+    color: #fff;
+    background: #c4e0d2;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .gray {
+    background: #eaeaea;
+    color: #676767;
+  }

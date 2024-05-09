@@ -1,0 +1,43 @@
+/* AboutUsPage.css */
+
+
+.about-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-image: url("https://media.istockphoto.com/id/1341437690/photo/blue-wave-conection-dots-and-lines-abstract-technology-background-science-background-big-data.webp?b=1&s=170667a&w=0&k=20&c=T6NsBDnryyZj0Ni-BOO7T0OfbpMGre0uBH5TCN8yBfI=" );
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  .about-us-content {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .about-us-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .highlight {
+    color: #007bff; /* Highlight color */
+    font-weight: bold;
+  }
+  
+  .about-us-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20vh;
+  }
+  
